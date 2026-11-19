@@ -131,14 +131,14 @@ img{max-width:100%}
 @media(max-width:860px){
   .nav{padding:10px 20px}
   .hero{padding-bottom:48px;gap:36px}
-  .block{padding-top:56px;padding-bottom:56px}
+  .block{padding-top:68px;padding-bottom:68px}
   .stats{flex-wrap:wrap;gap:18px 28px}
   .timeline li::before{left:-39px}
   .band .projects{gap:16px}
 }
 @media(max-width:480px){
   body{font-size:1rem}
-  .wrap{padding:0 18px}
+  .wrap{padding-left:18px;padding-right:18px}
   .portrait{max-width:260px;margin:0 18px 18px 0}
   .portrait::before{inset:16px -16px -16px 16px}
   .portrait::after{width:84px;height:84px;border-width:10px;left:-24px;bottom:-22px}
@@ -154,3 +154,8 @@ img{max-width:100%}
   .p0 h3{font-size:1.6rem}
   .meta{word-break:break-word}
 }
+
+/* Transformania card, final: logo is its own block so text can never overlap it */
+.proj.p0{background:#fff;min-height:0;justify-content:flex-start}
+.p0::before{content:"";display:block;width:100%;height:clamp(220px,62vw,360px);margin:-12px 0 8px;background:url(img/transformania-logo.jpg) center/contain no-repeat}
+@media(max-width:480px){.proj.p0{min-height:0;background-size:auto}.p0::before{margin-top:-6px}}
