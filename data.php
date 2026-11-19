@@ -47,7 +47,7 @@ return [
   ],
   'leadership' => [
     ['2024 – 2025','Assistant Treasurer','Software Engineering Association, UPSI'],
-    ['2024 – 2025','Entrepreneurship Executive Committee Member','IMUPCI (Kelab Istimewa Mahasiswa UPSI)'],
+    ['2024 – 2025','Entrepreneurship Executive Committee Member','IMUPC (Kelab Istimewa Mahasiswa UPSI)'],
     ['2024','Program Director','Sulam Go Global (Thailand), UPSI'],
   ],
   'languages' => [['Malay','Fluent'],['English','Fluent']],
